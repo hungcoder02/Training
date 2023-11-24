@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="contact_email" label="主な連絡先のEメール" language="en" table="x_1211715_traini_0_aws_project">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>contact_email</element>
+            <help/>
+            <hint/>
+            <label>主な連絡先のEメール</label>
+            <language>en</language>
+            <name>x_1211715_traini_0_aws_project</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-23 07:53:02</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>主な連絡先のEメール</sys_name>
+            <sys_package display_value="Training Task" source="x_1211715_traini_0">84b504f393eef11021fbf6718bba1057</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Training Task">84b504f393eef11021fbf6718bba1057</sys_scope>
+            <sys_update_name>sys_documentation_x_1211715_traini_0_aws_project_contact_email_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-23 07:53:04</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

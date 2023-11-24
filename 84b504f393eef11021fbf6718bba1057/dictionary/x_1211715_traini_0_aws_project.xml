@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="75fd8cfb93eef11021fbf6718bba1055" label="AWS案件" max_length="40" name="x_1211715_traini_0_aws_project" type="collection">
+        <element label="案件担当者者メールアドレス" max_length="50" name="account_admin_email" type="string"/>
+        <element label="案件担当者名" max_length="50" name="acount_admin" type="string"/>
+        <element label="住所" max_length="50" name="address" type="string"/>
+        <element label="州／地域" max_length="50" name="area" type="string"/>
+        <element label="AWSアカウントID" max_length="50" name="aws_account_id" type="string"/>
+        <element display="true" label="AWS管理番号" max_length="50" name="aws_number" type="string"/>
+        <element label="所属事業部名" max_length="50" name="business_unit" type="string"/>
+        <element label="キャンペーン名" max_length="40" name="campaign" type="integer"/>
+        <element label="市区町村" max_length="50" name="city" type="string"/>
+        <element label="ターゲットのクローズ日" mandatory="true" max_length="40" name="close_date" type="glide_date"/>
+        <element label="追加コメント" max_length="50" name="comment" type="string"/>
+        <element label="顧客会社名" mandatory="true" max_length="50" name="company_name" type="string"/>
+        <element label="競争力強化の追跡" max_length="40" name="competing_power" type="integer"/>
+        <element label="その他の競合先" max_length="50" name="competitive" type="string"/>
+        <element label="主な連絡先のEメール" max_length="50" name="contact_email" type="string"/>
+        <element label="主な連絡先の姓" max_length="50" name="contact_family_name" type="string"/>
+        <element label="主な連絡先の名" max_length="50" name="contact_first_name" type="string"/>
+        <element label="主な連絡先の電話番号" max_length="50" name="contact_phone" type="string"/>
+        <element label="主な連絡先の役職" max_length="50" name="contact_position" type="string"/>
+        <element label="契約媒体" max_length="50" name="contract" type="string"/>
+        <element label="国" mandatory="true" max_length="40" name="country" type="integer"/>
+        <element label="顧客Eメール" max_length="50" name="customer_email" type="string"/>
+        <element label="顧客担当者（姓）" max_length="50" name="customer_persion_family_name" type="string"/>
+        <element label="顧客担当者（名）" max_length="50" name="customer_person_first_name" type="string"/>
+        <element label="顧客電話番号" max_length="50" name="customer_phone" type="string"/>
+        <element label="顧客役職名" max_length="50" name="customer_position" type="string"/>
+        <element label="配信モデル" mandatory="true" max_length="40" name="delivery" type="integer"/>
+        <element label="所属部名" max_length="50" name="department" type="string"/>
+        <element label="プロジェクトの説明／ビジネスニーズ" mandatory="true" max_length="50" name="description" type="string"/>
+        <element label="AWSの月間経常収益の見積もり" mandatory="true" max_length="50" name="estimate" type="string"/>
+        <element label="マーケティング開発ファンド（MDF)？" max_length="40" name="fund" type="integer"/>
+        <element label="業種" mandatory="true" max_length="40" name="industry" type="integer"/>
+        <element label="業種その他" max_length="50" name="industry_etc" type="string"/>
+        <element label="これは市場向けですか？" max_length="40" name="market" type="integer"/>
+        <element label="AWSからのパートナーの主なニーズ" mandatory="true" max_length="40" name="needs" type="integer"/>
+        <element label="その他の場合、ニーズの内容を記載してください" max_length="50" name="needs_detail" type="string"/>
+        <element label="オポチュニティID" max_length="50" name="opportunity_id" type="string"/>
+        <element label="登録日" max_length="40" name="order_date" type="glide_date"/>
+        <element label="Partner CRM Unique Identifier" max_length="50" name="partner_csm_id" type="string"/>
+        <element label="パートナープロジェクト名" mandatory="true" max_length="50" name="partner_project_name" type="string"/>
+        <element label="所属担当名" max_length="50" name="person_in_charge" type="string"/>
+        <element label="案件担当者電話番号" max_length="50" name="phone" type="string"/>
+        <element label="郵便番号" mandatory="true" max_length="50" name="postal_code" type="string"/>
+        <element label="代表者名" max_length="50" name="representative" type="string"/>
+        <element label="サブユースケース" max_length="40" name="sub_use_case" type="integer"/>
+        <element label="お役様はこの商談でAWSアカウントの担当者からサポート受けましたか？" max_length="40" name="support" type="integer"/>
+        <element label="ユースケース" mandatory="true" max_length="40" name="use_case" type="integer"/>
+        <element label="ウェブサイト" mandatory="true" max_length="50" name="web_site" type="string"/>
+    </element>
+</database>

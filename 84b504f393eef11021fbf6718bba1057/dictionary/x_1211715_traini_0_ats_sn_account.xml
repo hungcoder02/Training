@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="884d40fb93eef11021fbf6718bba1055" label="servicenowアカウント" max_length="40" name="x_1211715_traini_0_ats_sn_account" type="collection">
+        <element display="true" label="AWS管理番号" mandatory="true" max_length="10" name="aws_number" type="string"/>
+        <element label="ユーザー" mandatory="true" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>
